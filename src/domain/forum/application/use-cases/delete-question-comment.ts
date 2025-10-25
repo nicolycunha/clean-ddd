@@ -1,7 +1,7 @@
 import { QuestionCommentsRepository } from '@/domain/forum/application/repositories/question-comments-repository'
 import { E } from 'vitest/dist/chunks/environment.d.cL3nLXbE'
-import { ResourceNotFoundError } from './errors/resource-not-found-error'
-import { NotAllowedError } from './errors/not-allowed-error'
+import { ResourceNotFoundError } from '@/core/errors/resource-not-found-error'
+import { NotAllowedError } from '@/core/errors/not-allowed-error'
 import { Either, left, right } from '@/core/either'
 
 interface DeleteQuestionCommentUseCaseRequest {

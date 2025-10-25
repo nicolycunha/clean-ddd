@@ -2,7 +2,7 @@ import { QuestionsRepository } from '../repositories/questions-repository'
 import { Question } from '../../enterprise/entities/question'
 import { Answer } from '../../enterprise/entities/answer'
 import { AnswersRepository } from '../repositories/answers-repository'
-import { Either, right } from '../../../../core/either'
+import { Either, right } from '@/core/either'
 
 interface FetchQuestionAnswersUseCaseRequest {
   page: number
